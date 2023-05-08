@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#formid {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bolder;
+    /* background-color: rgb(172, 200, 243); */
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+input[type=button] {
+    width: 15%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text] {
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+select:focus {
+    background-color: ivory;
+}

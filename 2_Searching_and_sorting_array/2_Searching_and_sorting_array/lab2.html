@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab2.css">
+    <script type="text/javascript" src="lab2.js"></script>
+    <title>lab2</title>
+</head>
+
+<body>
+    <form id="formid">
+        <h1 align="center">Sorting And searching</h1>
+        <br><br>
+        <div>
+            <label for="inp">Enter number of elements: </label>
+            <input id="inp" type="number">
+        </div>
+        <br>
+        <div>
+            <label for="arr">Enter elements of array: </label>
+            <input id="arr" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="outp">Insertion Sort Result: </label>
+            <input type="button" value="Sort" onclick="arrsort1()"><br><br>
+            Ascending Order:
+            <input id="outp" type="text">
+            <!-- <br><br> -->
+            &nbsp;&nbsp;&nbsp;
+            Descending Order:
+            <input id="outp4" type="text">
+            <br><br>
+            <label for="outp2">Bubble Sort Result: </label>
+            <input type="button" value="Sort" onclick="arrsort2()"><br><br>
+            Ascending Order:
+            <input id="outp2" type="text">
+            <!-- <br><br> -->
+            &nbsp;&nbsp;&nbsp;
+            Descending Order:
+            <input id="outp5" type="text">
+        </div>
+        <br>
+        <div>
+            <label for="outp3">Reversed Array: </label>
+            <input id="outp3" type="text">
+            <input type="button" value="Reverse" onclick="arrrev()">
+            <br><br>
+            <label for="srch">Enter element you want to search: </label>
+            <input id="srch" type="text">
+            <input type="button" value="Search" onclick="sear(document.getElementById('srch').value)">
+        </div>
+        <br>
+        <div>
+            <label for="op">Linear Search Result: </label>
+            <input id="op" type="text">
+            <!-- <br><br> -->
+            &nbsp&nbsp&nbsp;
+            <label for="op2">Binary Search Result: </label>
+            <input id="op2" type="text">
+        </div>
+    </form>
+</body>
+
+</html>
